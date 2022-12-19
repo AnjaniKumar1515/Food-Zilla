@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+ 
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #031321;
+    font-family: 'Roboto Slab', serif;
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-weight: 500;
+}
+a:hover{
+    color: #000000;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; 
+    text-transform: uppercase;
+
+}
+#click{
+    text-align: center;
+    color: red;
+
+}
